@@ -1,0 +1,10 @@
+version: "2"
+services:
+  web:
+    image: sabotageivet123/apache2
+    ports:
+      - "8888:80"
+  postgres:
+    image: sabotageivet123/postgresql
+    ports:
+      - "5433:5432"
